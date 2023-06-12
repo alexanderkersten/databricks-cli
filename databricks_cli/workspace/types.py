@@ -87,7 +87,8 @@ class WorkspaceFormat(object):
     HTML = 'HTML'
     JUPYTER = 'JUPYTER'
     DBC = 'DBC'
-    ALL = [SOURCE, HTML, JUPYTER, DBC]
+    AUTO = 'AUTO'
+    ALL = [SOURCE, HTML, JUPYTER, DBC, AUTO]
 
 
 class FormatClickType(ParamType):
